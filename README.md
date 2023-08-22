@@ -8,7 +8,7 @@ The redundant inverted pendulum system is illustrated hereby:
 </p>
 
 with its dynamics described as follows:
-
+  
 $$
 \begin{cases}
 \dot{x}_1 = x_2 \\
