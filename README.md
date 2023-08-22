@@ -24,20 +24,20 @@ As expected, all the control law work in the nominal scenario (no faults):
 
 LQR                        |  vANLC                    | pFT-ANLC
 :-------------------------:|:-------------------------:|:-------------------------:
-![](results/animations/animationLQR(nominal).gif) | ![](results/animations/animationvANLC(nominal).gif) | ![](results/animations/animationFTANLC(nominal).gif)
+![](results/animations/animationLQR(nominal).gif) | ![](results/animations/animationvANLC(nominal).gif) | ![](results/animations/animationpFT-ANLC(nominal).gif)
 
 
 ### Fault affecting the first actuator
 LQR                        |  vANLC                    | pFT-ANLC
 :-------------------------:|:-------------------------:|:-------------------------:
-![](results/animations/animationLQR(fault_1).gif) | ![](results/animations/animationvANLC(fault_1).gif) | ![](results/animations/animationFTANLC(fault_1).gif)
+![](results/animations/animationLQR(fault_1).gif) | ![](results/animations/animationvANLC(fault_1).gif) | ![](results/animations/animationpFT-ANLC(fault_1).gif)
 
 
 
 ### Fault affecting the second actuator
 LQR                        |  vANLC                    | pFT-ANLC
 :-------------------------:|:-------------------------:|:-------------------------:
-![](results/animations/animationLQR(fault_2).gif) | ![](results/animations/animationvANLC(fault_2).gif) | ![](results/animations/animationFTANLC(fault_2).gif)
+![](results/animations/animationLQR(fault_2).gif) | ![](results/animations/animationvANLC(fault_2).gif) | ![](results/animations/animationpFT-ANLC(fault_2).gif)
 
 
 
