@@ -2,7 +2,7 @@
 
 This repository contains the results of different control methods designed to stabilise an inverted pendulum with a redundant actuators set.
 The dynamic system is illustrated hereby:
-<img src="https://github.com/grande-dev/pFT-ANLC/blob/master/results/inverted_pendulum_redundant.png" width=100% height=100%>
+<img src="https://github.com/grande-dev/pFT-ANLC/blob/master/results/inverted_pendulum_redundant.png" width=40% height=40%>
 
 The system is described as follows:
 
