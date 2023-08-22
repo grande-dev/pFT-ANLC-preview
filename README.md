@@ -2,8 +2,10 @@
 
 This repository contains the results of different control laws designed to stabilise an inverted pendulum with a redundant actuators set.
   
-The system is illustrated hereby:
-<img src="https://github.com/grande-dev/pFT-ANLC/blob/master/results/inverted_pendulum_redundant.png" width=20% height=20%>
+The redundant inverted pendulum system is illustrated hereby:  
+<p align="center">
+    <img src="https://github.com/grande-dev/pFT-ANLC/blob/master/results/inverted_pendulum_redundant.png" width=20% height=20%>
+</p>
 
 with its dynamics described as follows:
 
@@ -42,14 +44,14 @@ LQR                        |  vANLC                    | pFT-ANLC
 
 
 ## 2) Code
-The code used to generate the results of this publication will soon be realeased open-source. Stay tuned.
+The code used to generate the results of this publication will soon be released open-source. Stay tuned.
 
 
 ## 3) Reference
 
 The related manuscript will be available in the Proceedings of the IEEE CDC Conference (estimated date: January 2024).  
   
-```
+```bibtex
 @inproceedings{
     title={Systematic synthesis of passive Fault-Tolerant Augmented Neural Lyapunov Control laws for overactuated systems},
     author={Davide Grande, Davide Fenucci, Andrea Peruffo, Enrico Anderlini, Alexander B. Phillips, Giles Thomas, Georgios Salavasidis},
