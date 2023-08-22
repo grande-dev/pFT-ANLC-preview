@@ -1,10 +1,11 @@
 # Passive Fault Tolerant-Augmented Neural Lyapunov Control  
 
-This repository contains the results of different control methods designed to stabilise an inverted pendulum with a redundant actuators set.
-The dynamic system is illustrated hereby:
-<img src="https://github.com/grande-dev/pFT-ANLC/blob/master/results/inverted_pendulum_redundant.png" width=40% height=40%>
+This repository contains the results of different control laws designed to stabilise an inverted pendulum with a redundant actuators set.
+  
+The system is illustrated hereby:
+<img src="https://github.com/grande-dev/pFT-ANLC/blob/master/results/inverted_pendulum_redundant.png" width=20% height=20%>
 
-The system is described as follows:
+with its dynamics described as follows:
 
 $$
 \begin{cases}
@@ -40,8 +41,11 @@ LQR                        |  vANLC                    | pFT-ANLC
 ![](results/animations/animationLQR(fault_2).gif) | ![](results/animations/animationvANLC(fault_2).gif) | ![](results/animations/animationpFT-ANLC(fault_2).gif)
 
 
+## 2) Code
+The code used to generate the results of this publication will soon be realeased open-source. Stay tuned.
 
-## 2) Reference
+
+## 3) Reference
 
 The related manuscript will be available in the Proceedings of the IEEE CDC Conference (estimated date: January 2024).  
   
