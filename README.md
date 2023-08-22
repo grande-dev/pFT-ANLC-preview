@@ -1,33 +1,43 @@
 # Passive Fault Tolerant-Augmented Neural Lyapunov Control  
 
-This repository contains the results of different controller laws tested over an inverted pendulum with a redundant actuators set.
-The controlled system is depited in Figure
-![](results/inverted_pendulum_redundant.png)
+This repository contains the results of different control methods designed to stabilise an inverted pendulum with a redundant actuators set.
+The dynamic system is illustrated hereby:
+<img src="https://github.com/grande-dev/pFT-ANLC/blob/master/results/inverted_pendulum_redundant.png" width=100% height=100%>
 
+The system is described as follows:
 
-## 1) Inverted Pendulum results
-Hereby the comparison of three control laws: an LQR, a vanilla ANLC (vANLC) and a Fault Tolerant Augmented Neural Lyapunov Control. 
+$$
+\begin{cases}
+\dot{x}_1 = x_2 \\
+\dot{x}_2 = (m L^2)^{-1}(m g L \sin{x_1} - b x_2 + h_1 u_1 - h_2 u_2 )\\
+\end{cases}
+$$
+
+where $u_1$ and $u_2$ represents two control signals, and $h_1$ and $h_2$ the health status of the actuators.
+
+## 1) Redundant Inverted Pendulum results
+Hereby the comparison of three control laws: a *Linear Quadratic Regulator* (LQR), a *vanilla Augmented Neural Lyapunov Control* (vANLC) and a *passive Fault Tolerant-Augmented Neural Lyapunov Control* (pFT-ANLC). 
 
 ### Nominal case
 As expected, all the control law work in the nominal scenario (no faults):
 
 
-LQR                        |  vANLC                    | FTANLC
+LQR                        |  vANLC                    | pFT-ANLC
 :-------------------------:|:-------------------------:|:-------------------------:
-![](results/campaign_1009/animationLQR(nominal).gif) | ![](results/campaign_1009/animationvANLC(nominal).gif) | ![](results/campaign_1009/animationFTANLC(nominal).gif)
+![](results/animations/animationLQR(nominal).gif) | ![](results/animations/animationvANLC(nominal).gif) | ![](results/animations/animationFTANLC(nominal).gif)
 
 
 ### Fault affecting the first actuator
-LQR                        |  vANLC                    | FTANLC
+LQR                        |  vANLC                    | pFT-ANLC
 :-------------------------:|:-------------------------:|:-------------------------:
-![](results/campaign_1009/animationLQR(fault_1).gif) | ![](results/campaign_1009/animationvANLC(fault_1).gif) | ![](results/campaign_1009/animationFTANLC(fault_1).gif)
+![](results/animations/animationLQR(fault_1).gif) | ![](results/animations/animationvANLC(fault_1).gif) | ![](results/animations/animationFTANLC(fault_1).gif)
 
 
 
 ### Fault affecting the second actuator
-LQR                        |  vANLC                    | FTANLC
+LQR                        |  vANLC                    | pFT-ANLC
 :-------------------------:|:-------------------------:|:-------------------------:
-![](results/campaign_1009/animationLQR(fault_2).gif) | ![](results/campaign_1009/animationvANLC(fault_2).gif) | ![](results/campaign_1009/animationFTANLC(fault_2).gif)
+![](results/animations/animationLQR(fault_2).gif) | ![](results/animations/animationvANLC(fault_2).gif) | ![](results/animations/animationFTANLC(fault_2).gif)
 
 
 
