@@ -4,7 +4,7 @@ This repository contains the results of different control laws designed to stabi
   
 The redundant inverted pendulum system is illustrated hereby:  
 <p align="center">
-    <img src="https://github.com/grande-dev/pFT-ANLC/blob/master/results/inverted_pendulum_redundant.png" width=20% height=20%>
+    <img src="https://github.com/grande-dev/pFT-ANLC-preview/blob/master/results/inverted_pendulum_redundant.png" width=20% height=20%>
 </p>
 
 with its dynamics described as follows:
@@ -44,8 +44,9 @@ LQR                        |  vANLC                    | pFT-ANLC
 
 
 ## 2) Code
-The code used to generate the results of this publication will soon be released open-source. Stay tuned.
-
+The code used to generate the results of this publication will soon be released open-sourcec at: [Passive-Fault-Tolerant-Augmented-Neural-Lyapunov-Control](https://github.com/grande-dev/pFT-ANLC).  
+Stay tuned.  
+  
 
 ## 3) Reference
 
@@ -53,7 +54,7 @@ The related manuscript will be available in the Proceedings of the IEEE CDC Conf
   
 ```bibtex
 @inproceedings{
-    title={Systematic synthesis of passive Fault-Tolerant Augmented Neural Lyapunov Control laws for overactuated systems},
+    title={Systematic synthesis of passive Fault-Tolerant Augmented Neural Lyapunov Control laws for nonlinear systems},
     author={Davide Grande, Davide Fenucci, Andrea Peruffo, Enrico Anderlini, Alexander B. Phillips, Giles Thomas, Georgios Salavasidis},
     booktitle={62nd IEEE Conference on Decision and Control},
     year={2023}
