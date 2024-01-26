@@ -56,7 +56,12 @@ The code used to generate the results of this publication will soon be released 
 Stay tuned.  
   
 
-## 3) Reference
+## 3) Contacts
+The authors can be contacted for feedback, clarifications or requests of support at:  
+`grande.rdev@gmail.com`  
+  
+
+## 4) Reference
 
 The related manuscript is available within the Proceedings of the IEEE CDC Conference as:  
   
