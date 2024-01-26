@@ -44,7 +44,7 @@ LQR                        |  vANLC                    | pFT-ANLC
 
 
 ### Fault affecting the second actuator
-Finally, when a fault is injected on the second actuator, both the LQR and the vANLC fail to drive the pendulum towards the desired equilibrium position:  
+Finally, when a fault is injected on the second actuator, both the LQR and the vANLC fail to drive the pendulum towards the desired equilibrium position, whilst the pFT-ANLC retains the stabilising capability:    
   
 LQR                        |  vANLC                    | pFT-ANLC
 :-------------------------:|:-------------------------:|:-------------------------:
