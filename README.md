@@ -1,7 +1,7 @@
 # Passive Fault Tolerant-Augmented Neural Lyapunov Control  
 
-This repository contains the results of a comparison of different control laws designed to stabilise an inverted pendulum with a redundant actuators set.
-  
+This repository contains the comparison of different control laws designed to stabilise an inverted pendulum system with a redundant actuators set. A new Fault Tolerant Control method named *passive Fault Tolerant-Augmented Neural Lyapunov Control* is devised: the control law is synthesised via an automatic learning approach, with the closed-loop stability guaranteed via a Control Lyapunov Function. The correctness of the solution over the reals is *formally certified* via formal methods. 
+    
 The associated publication is available at this [link](https://ieeexplore.ieee.org/document/10383378).  
    
 
@@ -21,10 +21,10 @@ $$
 \end{cases}
 $$
 
-where $u_1$ and $u_2$ represents two control signals, and $h_1$ and $h_2$ the health status of the actuators. 
+where $u_1$ and $u_2$ represent two control signals, and $h_1$ and $h_2$ the health status of the actuators. 
 
 
-In this test case, the goal is stabilise the pendulum in its upright position starting from the stable equilibrium position (pendulum hanging down with no angular velocity). Hereby, the comparison of three control laws is provided: a *Linear Quadratic Regulator* (LQR), a *vanilla Augmented Neural Lyapunov Control* (vANLC) and a *passive Fault Tolerant-Augmented Neural Lyapunov Control* (pFT-ANLC). 
+In this test case, the aim is to stabilise the pendulum in its upright position, starting from the configuration with the pendulum hanging down and no angular velocity. Hereby, the comparison of three control laws is provided: a *Linear Quadratic Regulator* (LQR), a *vanilla Augmented Neural Lyapunov Control* (vANLC) and a *passive Fault Tolerant-Augmented Neural Lyapunov Control* (pFT-ANLC). 
 
 ### Nominal case
 As expected, all the control laws work correctly in the nominal scenario (no faults):
@@ -35,7 +35,7 @@ LQR                        |  vANLC                    | pFT-ANLC
 
 
 ### Fault affecting the first actuator
-The control laws might also work when a fault occurr, e.g. in the case of fault on the first actuator, albeit there is no theoretical a-priori guarantee that they are capable to do so:  
+The control laws might also work when a fault occurr, e.g. in the case of fault on the first actuator as shown hereby, albeit there is no theoretical a-priori guarantee that they are capable to do so:  
   
 LQR                        |  vANLC                    | pFT-ANLC
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -44,7 +44,7 @@ LQR                        |  vANLC                    | pFT-ANLC
 
 
 ### Fault affecting the second actuator
-Finally, when a fault is injected on the second actuator, both the LQR and the vANLC fail to drive the pendulum towards the desired equilibrium position, whilst the pFT-ANLC retains the stabilising capability:    
+In this case study, when a fault is injected on the second actuator, both the LQR and the vANLC fail to drive the pendulum towards the desired equilibrium position, whilst the pFT-ANLC retains the stabilising capability:    
   
 LQR                        |  vANLC                    | pFT-ANLC
 :-------------------------:|:-------------------------:|:-------------------------:
