@@ -52,7 +52,7 @@ LQR                        |  vANLC                    | pFT-ANLC
 
 
 ## 2) Code
-The code used to generate the results of this publication is discussed in a dedicated follow-up [publication](https://www.sciencedirect.com/science/article/pii/S0967066124000959) 
+The code used to generate the results of this publication is discussed in a dedicated follow-up [publication](https://www.sciencedirect.com/science/article/pii/S0967066124000959).  
 
 The software tool is available within the following [repository](https://github.com/grande-dev/pFT-ANLC).  
 
