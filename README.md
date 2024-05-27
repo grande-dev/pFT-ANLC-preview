@@ -52,8 +52,10 @@ LQR                        |  vANLC                    | pFT-ANLC
 
 
 ## 2) Code
-The code used to generate the results of this publication will soon be released open-source in a dedicated follow-up publication. The software tool will be available within the following repository [Passive-Fault-Tolerant-Augmented-Neural-Lyapunov-Control](https://github.com/grande-dev/pFT-ANLC).  
-Stay tuned.  
+The code used to generate the results of this publication is discussed in a dedicated follow-up [publication](https://www.sciencedirect.com/science/article/pii/S0967066124000959) 
+
+The software tool is available within the following [repository](https://github.com/grande-dev/pFT-ANLC).  
+
   
 
 ## 3) Contacts
@@ -63,7 +65,7 @@ The authors can be contacted for feedback, clarifications or requests of support
 
 ## 4) Reference
 
-The related manuscript is available within the Proceedings of the IEEE CDC Conference as:  
+The related manuscript is available within the Proceedings of the IEEE CDC conference as:  
   
 ```bibtex
 @inproceedings{grande2023systematic,
